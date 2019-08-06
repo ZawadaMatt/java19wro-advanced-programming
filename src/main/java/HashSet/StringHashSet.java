@@ -86,7 +86,10 @@ public class StringHashSet implements Set<String> {
 
     @Override
     public void clear() {
-
+        for (List<String> bucket : buckets) {
+            bucket.clear();
+        }
+        System.out.println("Wyczyszczono :");
     }
 
     @Override

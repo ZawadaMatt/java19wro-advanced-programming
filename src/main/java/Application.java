@@ -16,11 +16,10 @@ public class Application {
         set.add("Jakub");
         set.add("Marek");
         System.out.println(set);
-        set.clear();
-        System.out.println(set);
-        set.add("Monika");
-        set.add("Monika2");
-
+        System.out.println(set.size());
+        set.add("Monika!");
+        set.add("Moniiiika");
+        set.retainAll();
         System.out.println(set);
     }
 

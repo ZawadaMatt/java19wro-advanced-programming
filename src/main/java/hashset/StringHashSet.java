@@ -1,4 +1,4 @@
-package HashSet;
+package hashset;
 
 import java.util.*;
 import java.util.function.Predicate;

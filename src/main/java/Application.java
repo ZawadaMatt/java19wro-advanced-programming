@@ -1,4 +1,4 @@
-import HashSet.StringHashSet;
+import hashset.StringHashSet;
 
 import java.util.List;
 import java.util.Set;
@@ -19,7 +19,7 @@ public class Application {
         System.out.println(set.size());
         set.add("Monika!");
         set.add("Moniiiika");
-        set.retainAll();
+        //set.retainAll();
         System.out.println(set);
     }
 
